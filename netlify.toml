@@ -3,8 +3,4 @@
   publish = ".next"      # или "out" если используешь next export
 
 [[plugins]]
-  # гарантирует поддержку Next.js 14+, ISR, image-оптимизацию
-  package = "@netlify/nextjs"
-
-[build.environment]
-  PNPM_FLAGS = "--no-frozen-lockfile"
+  package = "@netlify/plugin-nextjs"
