@@ -5,3 +5,6 @@
 [[plugins]]
   # гарантирует поддержку Next.js 14+, ISR, image-оптимизацию
   package = "@netlify/nextjs"
+
+[build.environment]
+  PNPM_FLAGS = "--no-frozen-lockfile"
