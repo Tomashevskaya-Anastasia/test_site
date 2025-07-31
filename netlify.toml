@@ -1,0 +1,7 @@
+[build]
+  command = "pnpm run build"
+  publish = ".next"      # или "out" если используешь next export
+
+[[plugins]]
+  # гарантирует поддержку Next.js 14+, ISR, image-оптимизацию
+  package = "@netlify/nextjs"
